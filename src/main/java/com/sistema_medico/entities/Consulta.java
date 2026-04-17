@@ -18,10 +18,10 @@ public class Consulta implements Serializable {
     @Column(name = "consulta_id")
     private Long id;
 
-    @Column(name = "nome_cliente", length = 255, nullable = false)
+    @Column(name = "nome_cliente", length = 200, nullable = false)
     private String nomeCliente;
 
-    @Column(name = "cpf_cliente", length = 255, nullable = false)
+    @Column(name = "cpf_cliente", length = 14, nullable = false)
     private String cpfCliente;
 
     @Column(name = "valor", nullable = false)

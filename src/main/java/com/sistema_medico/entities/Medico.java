@@ -21,7 +21,7 @@ public class Medico implements Serializable {
     @Column(name = "nome", length = 200, nullable = false)
     private String nome;
 
-    @Column(name = "cpf", length = 13, nullable = false, unique = true)
+    @Column(name = "cpf", length = 14, nullable = false, unique = true)
     private String cpf;
 
     @Column(name = "especializacao", nullable = false)
